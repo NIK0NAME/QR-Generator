@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get Your Free QR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://asecuritysite.com/md5.js"></script>
+    <script src="https://asecuritysite.com/sha256.js"></script>
+</head>
+<body onload="">
+
+    <div id="main">
+
+        <div class="main-container">
+            
+            <div class="title" style="margin-bottom: 40px;">Generate QR</div>
+            <div class="generated-qr">
+                <div class="result">
+                    
+                    <div class="">
+                        <span>Enter QR size</span>
+                        <div>
+                            <input type="number" name="qr_w" style="width: 100px;"/>
+                            x
+                            <input type="number" name="qr_h" style="width: 100px;"/>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <span>Enter identyfier to transform</span>
+                        <div>
+                            <input type="text" name="qr_text" class="el_texto" style="width: 400px" />
+                        </div>
+                    </div>
+                    <div class="btn_getResult" onclick="getMyQR()">
+                        Get QR
+                    </div>
+                    <h1 style="text-align: center;">Result</h1>
+                    <img src="" id="result_content" width="100px" height="100px">
+                    <span class="resulto">
+
+                    </span>
+                    
+                </div>
+            </div>
+
+            <hr style="margin-top: 40px;">
+
+            <div class="title">What is QR Generator FREE</div>
+            <hr>
+            <div class="somem-mem">
+                <div class="el-texto">
+                    <p>Los QR son una maravilla, al igual que las personas que los generan y 
+                        los desarrolladores que mantenen el servicion activo.
+                    </p>
+                    <p>
+                        Que somos: <strong>Escalvos ciberneticos</strong> que hacen que tu vida sea mejor a 
+                        cambio de cafe y otras sustancias estupefacientes. Con el objetivo de evadirnos de esta realidad
+                        por completo, por que, que hay mejor que navegar durante horas por Mierdagram hasta que se nos funde el cerebro.
+                    </p>
+                </div>
+                <div class="mi-foto-fondo">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/functionalities.js"></script>
+    <script src="js/qrcode.js"></script>
+</body>
+</html>
